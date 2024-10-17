@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Test Suite" parallel="methods" thread-count="2">
+<listeners>
+<listener class-name="TestNG.Listener"></listener>
+</listeners>
+<test name="Test cases">
+<!-- <groups>
+<run>
+<include name="vivo"></include>
+<include name="oneplus"></include> -->
+<!-- <parameter name="Name" value="Priya"></parameter> -->
+<classes>
+
+<class name="TestNG.Sampletest"></class>
+<!-- <class name="TestNG.SettingPriority"></class>
+<class name="TestNG.Skipatestcase"></class>
+<class name="TestNG.Dependancy"></class>
+<class name="TestNG.Testcases"></class>
+<class name="TestNG.Beforeandaftersuite"></class>
+<class name="TestNG.Grouping"></class> 
+<class name="TestNG.Parameterization"></class> 
+<class name="TestNG.Paralleltesting"></class> --> -->
+</classes>
+<!-- </run>
+</groups> -->
+</test>
+</suite>
